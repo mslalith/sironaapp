@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>63806994310-m366f5hupiettibj57mcbl9d0b3sj3u2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.63806994310-m366f5hupiettibj57mcbl9d0b3sj3u2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>63806994310-o9q3in81fdu4026n1l5lbrr5jsvhgi8b.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4EhscXILipDaCSPY9aG7ow3S1B97pyGw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>63806994310</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.medicalShop</string>
+	<key>PROJECT_ID</key>
+	<string>medicineapp-fca36</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medicineapp-fca36.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:63806994310:ios:4ee01f6b67b59a26fb5e07</string>
+	<key>DATABASE_URL</key>
+	<string>https://medicineapp-fca36.firebaseio.com</string>
+</dict>
+</plist>

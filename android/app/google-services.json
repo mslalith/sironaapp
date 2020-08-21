@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "63806994310",
+    "firebase_url": "https://medicineapp-fca36.firebaseio.com",
+    "project_id": "medicineapp-fca36",
+    "storage_bucket": "medicineapp-fca36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63806994310:android:9e81b4ae17d17fd1fb5e07",
+        "android_client_info": {
+          "package_name": "com.example.otp_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63806994310-e9bnqq0dhqd2f8cp0t7nc8oc70g6mh2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otp_auth",
+            "certificate_hash": "e9e64a5e70bc55bda71bd384d6d2e185fe31322e"
+          }
+        },
+        {
+          "client_id": "63806994310-dk0gkiuaioq2gvb6a5qfv6jmq4i8n3l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otp_auth",
+            "certificate_hash": "2af9c2d9f6352c34b2220c0d4d1b3089c468193d"
+          }
+        },
+        {
+          "client_id": "63806994310-e2fkk99u355s289vt80t12fd2oemjbsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3We4f6NEaTwumCMzMKxxEC16PRrGwo1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63806994310-e2fkk99u355s289vt80t12fd2oemjbsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63806994310:android:c9640d8883bb646bfb5e07",
+        "android_client_info": {
+          "package_name": "in.sironapharmacy.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63806994310-o9q3in81fdu4026n1l5lbrr5jsvhgi8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.sironapharmacy.delivery",
+            "certificate_hash": "2af9c2d9f6352c34b2220c0d4d1b3089c468193d"
+          }
+        },
+        {
+          "client_id": "63806994310-7n33udvnrjl1g1rnvupea6s5kk0lch02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.sironapharmacy.delivery",
+            "certificate_hash": "e9e64a5e70bc55bda71bd384d6d2e185fe31322e"
+          }
+        },
+        {
+          "client_id": "63806994310-e2fkk99u355s289vt80t12fd2oemjbsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3We4f6NEaTwumCMzMKxxEC16PRrGwo1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63806994310-e2fkk99u355s289vt80t12fd2oemjbsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
