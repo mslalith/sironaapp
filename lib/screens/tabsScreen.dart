@@ -1,5 +1,6 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'package:medical_shop/models/address.dart';
 import 'package:medical_shop/models/person.dart';
 import 'package:medical_shop/providers/addresses.dart';
 import 'package:medical_shop/providers/auth.dart';
@@ -128,14 +129,12 @@ class _TabsScreenState extends State<TabsScreen> {
         .getDocuments()
         .then((QuerySnapshot snapshot) {
       snapshot.documents.forEach((f) => {
-      if (f.data['token'] == token) {
-                print('matched')
-      } else {
-      addToken(token)
-      }
-      });
-
-  });
+            if (f.data['token'] == token)
+              {print('matched')}
+            else
+              {addToken(token)}
+          });
+    });
   }
 
   void addToken(String token) async {
@@ -219,6 +218,8 @@ class _TabsScreenState extends State<TabsScreen> {
       message = person.name;
     }
 
+    print(
+        '============================$isLocationPicked============ tabscreen');
     this.isLocationPicked
         ? Container()
         : Future.delayed(Duration.zero, () => locationDialog(context));
@@ -259,17 +260,22 @@ class _TabsScreenState extends State<TabsScreen> {
                         Container(
                           width: deviceSize.width * 0.25,
                         ),
-                        isLocationPicked
-                            ? Icon(
-                                Icons.done,
-                                color: Colors.white,
-                                size: deviceSize.height * 0.027,
-                              )
-                            : Icon(
-                                Icons.warning,
-                                color: Colors.red,
-                                size: deviceSize.height * 0.027,
-                              )
+                        Selector<AddressList, bool>(
+                          selector: (_, provider) => provider.hasAddress,
+                          builder: (_, hasAddress, child) {
+                            return hasAddress
+                                ? Icon(
+                                    Icons.done,
+                                    color: Colors.white,
+                                    size: deviceSize.height * 0.027,
+                                  )
+                                : Icon(
+                                    Icons.warning,
+                                    color: Colors.red,
+                                    size: deviceSize.height * 0.027,
+                                  );
+                          },
+                        ),
                       ],
                     ),
                   ),
