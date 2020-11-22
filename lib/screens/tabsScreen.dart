@@ -19,7 +19,6 @@ import 'package:medical_shop/screens/splashScreen.dart';
 import 'package:provider/provider.dart';
 import 'package:geocoder/geocoder.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:location/location.dart';
 
 import 'homepage.dart';
 import 'orderListScreen.dart';

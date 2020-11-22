@@ -137,6 +137,7 @@ class _AddPinState extends State<AddPin> {
 
   Future<void> _getCurrentLocation() async {
     final locData = await Location().getLocation();
+    print('Got location:=========================================== $locData');
     if (locData != null) {
       final LatLng pos = LatLng(locData.latitude, locData.longitude);
       _pickedLocation = pos;

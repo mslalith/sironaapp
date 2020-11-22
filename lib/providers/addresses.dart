@@ -57,11 +57,13 @@ class AddressList with ChangeNotifier {
       print(oData);
       if (oData == null) {
       } else {
-        oData.forEach((id) => {
-              //print(id)
-              this._address.add(PAddress.fromJson(id))
-            });
-        this._baseAddress = this._address[0];
+        if (oData.isNotEmpty) {
+          oData.forEach((id) => {
+                //print(id)
+                this._address.add(PAddress.fromJson(id))
+              });
+          this._baseAddress = this._address[0];
+        }
         notifyListeners();
       }
     } catch (error) {
